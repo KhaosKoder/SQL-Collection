@@ -10,5 +10,6 @@ Use temporary tables or table variables for intermediate results.
 Comment liberally, especially around parameters, loops, and error handling.
 Use clean, consistent indentation and formatting.
 Use FORMATMESSAGE for structured output if needed.
+Use Dynamic SQL Code ONLY AS A LAST RESORT. Do not write dynamic sql unless there is no other way to solve the problem.
 
 The scripts are for diagnostics, monitoring, and quick insights — not for production workloads. Keep them readable, maintainable, and safe for repeated execution.
