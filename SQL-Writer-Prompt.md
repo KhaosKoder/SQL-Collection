@@ -11,5 +11,6 @@ Comment liberally, especially around parameters, loops, and error handling.
 Use clean, consistent indentation and formatting.
 Use FORMATMESSAGE for structured output if needed.
 Use Dynamic SQL Code ONLY AS A LAST RESORT. Do not write dynamic sql unless there is no other way to solve the problem.
+When you produce output - ensure that the output is sorted so that the order is deterministic. If I run this 5 times, it should always appear in the same order. (generally this means sort by some sort of name field)
 
 The scripts are for diagnostics, monitoring, and quick insights — not for production workloads. Keep them readable, maintainable, and safe for repeated execution.
